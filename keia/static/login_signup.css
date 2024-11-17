@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+    background: url('/static/images/image_1.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-page {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form h2 {
+    font-weight: 600;
+    color: #004AAD;
+    margin-bottom: 20px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+
+.form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #004AAD;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #002b5a;
+}
+
+.form .message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.form .message a {
+    color: #004AAD;
+    text-decoration: none;
+    font-weight: 500;
+}

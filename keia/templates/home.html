@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage-ZapTech</title>
+    <link rel="stylesheet" href="/static/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#"><i class="fas fa-bolt"></i> ZapTech</a>
+            </div>
+            <!-- Navigation Menu -->
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- Right Icons -->
+            <div class="nav-icons">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="{{ url_for('login') }}"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+</body>
+            <!-- Header Content -->
+           <div class ="header-content">
+                <div class="container"></div>
+                <h1>ZapTech</h1>
+                <p>Smart solutions for daily convinience.</p>
+                <button class="primary-btn">SHOP NOW</button>
+            </div>
+</html>
